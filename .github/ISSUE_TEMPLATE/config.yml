@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 产品官网
+    url: https://juanjitech.github.io/termium/
+    about: 了解 Termium 功能、安全设计与下载入口
+  - name: 下载最新版本
+    url: https://github.com/juanjiTech/termium/releases/latest
+    about: 获取 macOS / Windows 安装包
+  - name: 查看所有版本
+    url: https://github.com/juanjiTech/termium/releases
+    about: 历史版本与更新说明

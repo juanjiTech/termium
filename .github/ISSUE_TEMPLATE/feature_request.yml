@@ -1,0 +1,77 @@
+name: 功能建议
+description: 提出新功能或改进现有体验的想法
+title: "[Feature] "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提出建议！请说明**使用场景**与**期望结果**，比单纯描述「想要某功能」更有助于评估优先级。
+        提交前请先 [搜索已有 Issue](https://github.com/juanjiTech/termium/issues)。
+
+  - type: input
+    id: version
+    attributes:
+      label: 当前使用的 Termium 版本（选填）
+      placeholder: v1.0.0-alpha.13
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 相关模块
+      options:
+        - SSH 终端 / 会话
+        - 主机与连接管理
+        - 密钥 / 密码 / 凭据
+        - 端口转发
+        - 团队协作 / 同步
+        - Kubernetes 集群
+        - 应用更新 / 安装
+        - 界面与交互
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决什么问题？
+      description: 描述当前遇到的痛点或缺失的能力
+      placeholder: 管理多台跳板机时，每次都要手动选择代理主机，效率较低……
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望的解决方案
+      description: 你理想中的功能或交互是怎样的？
+      placeholder: 希望为主机配置默认跳板链，新建会话时自动按链连接……
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 考虑过的替代方案（选填）
+      description: 例如用外部工具、脚本或变通做法
+      placeholder: 目前用 ~/.ssh/config 手动维护 ProxyJump，但无法与团队同步……
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 对你而言的重要程度
+      options:
+        - 没有就几乎无法使用
+        - 显著提升效率或体验
+        - 有更好，没有也能接受
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索过现有 Issue，确认没有相同或相近建议
+          required: true

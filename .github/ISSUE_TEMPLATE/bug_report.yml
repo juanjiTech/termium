@@ -1,0 +1,128 @@
+name: Bug 报告
+description: 报告 Termium 桌面端的问题或异常行为
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量填写完整信息，便于我们复现与修复。
+        提交前请先 [搜索已有 Issue](https://github.com/juanjiTech/termium/issues)，避免重复。
+
+  - type: input
+    id: version
+    attributes:
+      label: Termium 版本
+      description: 在应用内 **设置** 或 **关于** 中查看，或填写你安装的 Release 标签（如 `v1.0.0-alpha.13`）
+      placeholder: v1.0.0-alpha.13
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 操作系统
+      options:
+        - macOS (Apple Silicon / ARM64)
+        - macOS (Intel / x64)
+        - Windows 10/11 (x64)
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: 系统版本
+      description: 例如 macOS 15.5、Windows 11 24H2
+      placeholder: macOS 15.5
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 影响程度
+      options:
+        - 阻断使用（无法登录、无法连接、应用崩溃）
+        - 功能异常（部分功能不可用）
+        - 体验问题（UI、文案、性能）
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 用一两句话说明发生了什么
+      placeholder: 连接某台主机时，终端窗口空白且无报错提示……
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 尽量写清操作顺序，便于我们按相同步骤复现
+      placeholder: |
+        1. 登录账号并进入团队 XXX
+        2. 打开主机 YYY 的 SSH 会话
+        3. 点击「端口转发」并添加规则 ……
+        4. 观察到 ……
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      placeholder: 端口转发应显示为「已建立」，本地端口可访问……
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      placeholder: 状态一直显示「连接中」，约 30 秒后超时……
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: 是否可稳定复现
+      options:
+        - 每次必现
+        - 偶尔出现
+        - 仅出现过一次
+        - 尚未重试
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / 截图 / 录屏
+      description: |
+        可粘贴应用内错误提示、终端输出或相关日志。
+        截图请直接拖拽到输入框上传。
+      placeholder: |
+        （如有）错误信息、控制台输出、相关配置（请脱敏主机地址、密钥等敏感信息）
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索过现有 Issue，确认没有重复报告
+          required: true
+        - label: 我已移除或脱敏日志、截图中的密码、密钥、内网地址等敏感信息
+          required: true
