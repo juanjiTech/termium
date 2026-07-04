@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Termium">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1a45"/>
+      <stop offset="55%" stop-color="#0f2f87"/>
+      <stop offset="100%" stop-color="#122a6b"/>
+    </linearGradient>
+    <radialGradient id="glow-cyan" cx="18%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#61D4F8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#61D4F8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-blue" cx="88%" cy="70%" r="40%">
+      <stop offset="0%" stop-color="#145af5" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#145af5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d9e6fe"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#glow-cyan)"/>
+  <rect width="1280" height="320" fill="url(#glow-blue)"/>
+
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="80" x2="1280" y2="80"/>
+    <line x1="0" y1="160" x2="1280" y2="160"/>
+    <line x1="0" y1="240" x2="1280" y2="240"/>
+    <line x1="320" y1="0" x2="320" y2="320"/>
+    <line x1="640" y1="0" x2="640" y2="320"/>
+    <line x1="960" y1="0" x2="960" y2="320"/>
+  </g>
+
+  <g transform="translate(88 52) scale(0.205)">
+    <path d="M 360.00 424.00 L 360.00 276.00 Q 360.00 260.00 375.07 254.62 L 784.93 108.24 Q 800.00 102.86 800.00 118.86 L 800.00 266.86 Q 800.00 282.86 784.93 288.24 L 375.07 434.62 Q 360.00 440.00 360.00 424.00 Z" fill="#61D4F8"/>
+    <path d="M 220.00 394.00 L 220.00 246.00 Q 220.00 230.00 235.07 224.62 L 604.93 92.52 Q 620.00 87.14 620.00 103.14 L 620.00 251.14 Q 620.00 267.14 604.93 272.52 L 235.07 404.62 Q 220.00 410.00 220.00 394.00 Z" fill="#0A20CD"/>
+    <path d="M 360.00 360.00 L 360.00 276.00 Q 360.00 260.00 375.07 254.62 L 620.00 167.14 L 620.00 251.14 Q 620.00 267.14 604.93 272.52 L 360.00 360.00 Z" fill="#3C87EA"/>
+    <path d="M 470.00 884.00 L 470.00 506.00 Q 470.00 490.00 485.07 484.62 L 614.93 438.24 Q 630.00 432.86 630.00 448.86 L 630.00 826.86 Q 630.00 842.86 614.93 848.24 L 485.07 894.62 Q 470.00 900.00 470.00 884.00 Z" fill="#61D4F8"/>
+    <path d="M 400.00 854.00 L 400.00 476.00 Q 400.00 460.00 415.07 454.62 L 544.93 408.24 Q 560.00 402.86 560.00 418.86 L 560.00 796.86 Q 560.00 812.86 544.93 818.24 L 415.07 864.62 Q 400.00 870.00 400.00 854.00 Z" fill="#0A20CD"/>
+    <path d="M 470.00 845.00 L 470.00 506.00 Q 470.00 490.00 485.07 484.62 L 560.00 457.86 L 560.00 796.86 Q 560.00 812.86 544.93 818.24 L 470.00 845.00 Z" fill="#3C87EA"/>
+  </g>
+
+  <text x="360" y="138" fill="url(#title)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-1.5">Termium</text>
+  <text x="362" y="186" fill="#bcd4fd" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="500">随时随地，管理您的基础设施</text>
+  <text x="362" y="224" fill="#7da4fa" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400">SSH / 密钥管理 / 团队协作 / Kubernetes</text>
+
+  <rect x="360" y="250" width="132" height="36" rx="18" fill="#145af5"/>
+  <text x="426" y="274" text-anchor="middle" fill="#ffffff" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15" font-weight="600">免费下载</text>
+</svg>

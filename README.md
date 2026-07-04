@@ -1,6 +1,14 @@
-# Termium
+<p align="center">
+  <a href="https://juanjitech.github.io/termium/">
+    <img src="docs/header.png" alt="Termium — 随时随地，管理您的基础设施" width="100%" />
+  </a>
+</p>
 
-> 随时随地，管理您的基础设施。
+<p align="center">
+  <a href="https://github.com/juanjiTech/termium/releases/latest"><img src="https://img.shields.io/github/v/release/juanjiTech/termium?label=最新版本&style=for-the-badge&color=145af5" alt="Latest release" /></a>
+  <a href="https://juanjitech.github.io/termium/"><img src="https://img.shields.io/badge/官网-下载页-0A20CD?style=for-the-badge" alt="Website" /></a>
+  <a href="https://github.com/juanjiTech/termium/issues/new/choose"><img src="https://img.shields.io/badge/反馈-Issues-61D4F8?style=for-the-badge" alt="Issues" /></a>
+</p>
 
 **Termium** 是一款面向团队的基础设施管理桌面应用：在安全的端到端加密前提下，统一管理 SSH 连接、密钥与密码、端口转发、Kubernetes 集群等资源，并通过团队协作在多设备间同步配置。
 
