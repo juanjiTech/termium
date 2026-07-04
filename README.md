@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/juanjiTech/termium/releases/latest"><img src="https://img.shields.io/github/v/release/juanjiTech/termium?label=最新版本&style=for-the-badge&color=145af5" alt="Latest release" /></a>
+  <a href="https://github.com/juanjiTech/termium/releases/latest"><img src="https://img.shields.io/github/v/release/juanjiTech/termium?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&amp;style=for-the-badge&amp;color=145af5" alt="Latest release" /></a>
   <a href="https://juanjitech.github.io/termium/"><img src="https://img.shields.io/badge/官网-下载页-0A20CD?style=for-the-badge" alt="Website" /></a>
   <a href="https://github.com/juanjiTech/termium/issues/new/choose"><img src="https://img.shields.io/badge/反馈-Issues-61D4F8?style=for-the-badge" alt="Issues" /></a>
 </p>
