@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/juanjiTech/termium/releases/latest"><img src="https://img.shields.io/github/v/release/juanjiTech/termium?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&amp;style=for-the-badge&amp;color=145af5" alt="Latest release" /></a>
+  <a href="https://github.com/juanjiTech/termium/releases"><img src="https://img.shields.io/github/v/release/juanjiTech/termium?include_prereleases&amp;label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&amp;style=for-the-badge&amp;color=145af5" alt="Latest release" /></a>
   <a href="https://www.termium.cn/"><img src="https://img.shields.io/badge/官网-下载页-0A20CD?style=for-the-badge" alt="Website" /></a>
   <a href="https://github.com/juanjiTech/termium/issues/new/choose"><img src="https://img.shields.io/badge/反馈-Issues-61D4F8?style=for-the-badge" alt="Issues" /></a>
 </p>
@@ -13,14 +13,14 @@
 **Termium** 是一款面向团队的基础设施管理桌面应用：在安全的端到端加密前提下，统一管理 SSH 连接、密钥与密码、端口转发、Kubernetes 集群等资源，并通过团队协作在多设备间同步配置。放心将运维托付给 Agent——敏感连接凭据不落盘，纵使工作区文件泄露，也绝不暴露 SSH 与集群访问信息。
 
 - **官网 / 下载页**：[https://www.termium.cn](https://www.termium.cn/)
-- **最新版本**：[Releases](https://github.com/juanjiTech/termium/releases/latest)
+- **最新版本**：[Releases](https://github.com/juanjiTech/termium/releases)
 - **问题反馈**：[GitHub Issues](https://github.com/juanjiTech/termium/issues/new/choose)
 
 ---
 
 ## 下载
 
-前往 **[Releases](https://github.com/juanjiTech/termium/releases/latest)** 获取最新安装包。当前支持的平台与文件命名规则如下：
+前往 **[Releases](https://github.com/juanjiTech/termium/releases)** 获取最新安装包（含 alpha / beta 预发布版）。当前支持的平台与文件命名规则如下：
 
 | 平台 | 架构 | 安装包示例 |
 |------|------|------------|
@@ -98,7 +98,7 @@ Linux 桌面端尚未提供公开安装包。如有需求，欢迎在 Issues 中
 
 ## English
 
-**Termium** is a desktop app for managing infrastructure with team collaboration and end-to-end encryption. Download the latest build from [Releases](https://github.com/juanjiTech/termium/releases/latest), visit the [product site](https://www.termium.cn/), or [open an issue](https://github.com/juanjiTech/termium/issues/new/choose) for bugs and feature requests.
+**Termium** is a desktop app for managing infrastructure with team collaboration and end-to-end encryption. Download the latest build (including prereleases) from [Releases](https://github.com/juanjiTech/termium/releases), visit the [product site](https://www.termium.cn/), or [open an issue](https://github.com/juanjiTech/termium/issues/new/choose) for bugs and feature requests.
 
 This repository hosts **releases and user feedback only** — source code is not published here.
 
