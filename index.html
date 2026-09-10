@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Termium — 随时随地，管理您的基础设施。放心将运维托付给 Agent，敏感凭据不落盘，避免文件泄露导致连接信息外泄。下载与问题反馈请访问 GitHub 仓库 juanjiTech/termium。"
+    />
+    <link rel="canonical" href="https://www.termium.cn/" />
+    <link
+      rel="alternate"
+      type="text/html"
+      href="https://github.com/juanjiTech/termium"
+      title="Termium GitHub 仓库"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Termium — 随时随地，管理您的基础设施</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "为什么 AI Agent（如 Cursor, Cline, Copilot）在进行 SSH 或 K8s 运维时存在安全隐患？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Agent 参与 SSH 或 K8s 运维时，往往需要调用本地已落盘的连接配置（如 SSH 密钥、kubeconfig 等）。若对 Agent 操作行为审查不足，或遭遇恶意工具调用注入，这些文件就可能被访问并进入工作区、日志或上下文中。一旦意外泄露，真实的连接凭据也会随之暴露，带来严重的资产失窃风险。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Termium 是如何保障 AI Agent 运维安全的？（敏感凭据不落盘）",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Termium 让敏感连接凭据始终留在安全边界内，不以明文配置文件的形式进入 Agent 可访问的工作区或磁盘。即便项目文件或工作区意外泄露，攻击者也无法从中获取真实的 SSH 密钥与集群访问权限。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "使用 Termium 托管凭据后，会影响 AI Agent 的正常工作和自动化体验吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "完全不会。Termium 在本地提供了无缝的代理与中转机制。对 Agent 而言，它依然可以高效地执行排查、变更和部署任务，但它拿到的只是受限的临时通道。这种设计不仅保障了安全性，还让您能够随时撤销或限制 Agent 的访问权限，实现真正的零信任 AI 运维。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Termium 的端到端加密是如何保护团队协作的？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Termium 的所有团队共享配置均采用端到端加密（E2EE）。主密码仅在本地派生加密密钥，永远不会上传到云端。这意味着除了您和您的团队成员，包括 Termium 官方在内的任何第三方都无法解密或查看您的基础设施凭据。"
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-B1VAEzd1.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Du6FqXH3.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
