@@ -8,6 +8,7 @@
   <a href="https://github.com/juanjiTech/termium/releases"><img src="https://img.shields.io/github/v/release/juanjiTech/termium?include_prereleases&amp;label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&amp;style=for-the-badge&amp;color=145af5" alt="Latest release" /></a>
   <a href="https://www.termium.cn/"><img src="https://img.shields.io/badge/官网-下载页-0A20CD?style=for-the-badge" alt="Website" /></a>
   <a href="https://github.com/juanjiTech/termium/issues/new/choose"><img src="https://img.shields.io/badge/反馈-Issues-61D4F8?style=for-the-badge" alt="Issues" /></a>
+  <a href="https://github.com/juanjiTech/termium/discussions/3"><img src="https://img.shields.io/badge/路线图-Roadmap-7057ff?style=for-the-badge" alt="Roadmap" /></a>
 </p>
 
 **Termium** 是一款面向团队的基础设施管理桌面应用：在安全的端到端加密前提下，统一管理 SSH 连接、密钥与密码、端口转发、Kubernetes 集群等资源，并通过团队协作在多设备间同步配置。放心将运维托付给 Agent——敏感连接凭据不落盘，纵使工作区文件泄露，也绝不暴露 SSH 与集群访问信息。
@@ -15,6 +16,8 @@
 - **官网 / 下载页**：[https://www.termium.cn](https://www.termium.cn/)
 - **最新版本**：[Releases](https://github.com/juanjiTech/termium/releases)
 - **问题反馈**：[GitHub Issues](https://github.com/juanjiTech/termium/issues/new/choose)
+- **路线图**：[Roadmap](https://github.com/juanjiTech/termium/discussions/3)
+- **讨论区**：[GitHub Discussions](https://github.com/juanjiTech/termium/discussions)
 
 ---
 
@@ -85,6 +88,22 @@ Linux 桌面端尚未提供公开安装包。如有需求，欢迎在 Issues 中
 |------|------|
 | Bug 报告 | [报告问题](https://github.com/juanjiTech/termium/issues/new?template=bug_report.yml) |
 | 功能建议 | [功能建议](https://github.com/juanjiTech/termium/issues/new?template=feature_request.yml) |
+| 使用问题 / 讨论 | [Discussions · Q&A](https://github.com/juanjiTech/termium/discussions/categories/q-a) |
+| 安全漏洞 | 邮件 contact@juanji.tech（详见 [SECURITY.md](SECURITY.md)） |
+
+**Bug 与功能建议**走 Issues；**开放式的使用问题、想法交流**请去 [Discussions](https://github.com/juanjiTech/termium/discussions)。完整的渠道与响应约定见 [SUPPORT.md](SUPPORT.md)。
+
+> 本仓库仅托管发布产物与用户反馈，不包含应用源代码，因此**暂不接受外部代码 PR**。最好的贡献方式是提交高质量反馈、参与讨论。
+
+---
+
+## 路线图
+
+我们在 [Roadmap 讨论帖](https://github.com/juanjiTech/termium/discussions/3) 公开正在做与计划做的事：按版本分组，用 checklist 标记已交付（`[x]`）与未完成（`[ ]`），规划项尽量链接到对应 Issue。
+
+- 路线图**不承诺具体发布日期**，会随开发进展调整
+- 想推动某个需求，欢迎去对应 Issue 点 👍，这是我们判断优先级的重要参考
+- 每月至少更新一次（帖内标有 `Last updated`）
 
 ---
 
